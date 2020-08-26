@@ -1,0 +1,14 @@
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Business.deps.json
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Business.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Business.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Business.csprojAssemblyReference.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Business.AssemblyInfoInputs.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Business.AssemblyInfo.cs
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Business.csproj.CopyComplete
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Business.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Business\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Business.pdb

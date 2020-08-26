@@ -1,0 +1,59 @@
+﻿@model TelephoneDirectoryApp.Entity.UserContact
+
+<div class="container-md">
+    <h2>Add New Contact</h2>
+    <form id="formCreateContact" asp-action="CreateContact" asp-controller="Contact" method="post">
+        <div class="form-group">
+            <label asp-for="FirstName" class="control-label"></label>
+            <input asp-for="FirstName" class="form-control" placeholder="First Name"/>
+
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName" class="control-label"></label>
+            <input asp-for="LastName" class="form-control" placeholder="Last Name" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Email" class="control-label"></label>
+            <input asp-for="Email" class="form-control" placeholder="Email" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Gender" class="control-label"></label>
+            <div class="form-inline">
+                <input class="form-control" type="radio" asp-for="Gender" value="Male">
+                <label class="control-label" asp-for="Gender">Male</label>
+            </div>
+            <div class="form-inline">
+                <input class="form-control" type="radio" asp-for="Gender" value="Female">
+                <label class="control-label" asp-for="Gender">Female</label>
+
+            </div>
+            <div class="form-inline">
+                <input class="form-control" type="radio" asp-for="Gender" value="Other">
+                <label class="control-label" asp-for="Gender">Other</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Phone" class="control-label"></label>
+            <input asp-for="Phone" class="form-control" placeholder="Phone Number" />
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="City" class="control-label"></label>
+            <input asp-for="City" class="form-control" placeholder="City" />
+        </div>
+        <div class="form-group">
+            <label asp-for="State" class="control-label"></label>
+
+            <select class="form-control" asp-for="State" asp-items="@ViewData["StatesData"] as List<SelectListItem>"></select>
+
+        </div>
+        <div class="form-group">
+            <label asp-for="Zip" class="control-label"></label>
+            <input asp-for="Zip" class="form-control" placeholder="Zip Code"/>
+        </div>
+        <div class="form-group">
+            <button type="reset" class="btn btn-outline-primary">Cancel</button> &nbsp;&nbsp;
+            <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+    </form>
+</div>

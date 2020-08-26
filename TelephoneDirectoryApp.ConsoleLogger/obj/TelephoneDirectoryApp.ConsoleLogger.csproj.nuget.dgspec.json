@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.ConsoleLogger\\TelephoneDirectoryApp.ConsoleLogger.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.ConsoleLogger\\TelephoneDirectoryApp.ConsoleLogger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.ConsoleLogger\\TelephoneDirectoryApp.ConsoleLogger.csproj",
+        "projectName": "TelephoneDirectoryApp.ConsoleLogger",
+        "projectPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.ConsoleLogger\\TelephoneDirectoryApp.ConsoleLogger.csproj",
+        "packagesPath": "C:\\Users\\ntm14\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.ConsoleLogger\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ntm14\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Contracts\\TelephoneDirectoryApp.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Contracts\\TelephoneDirectoryApp.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Contracts\\TelephoneDirectoryApp.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Contracts\\TelephoneDirectoryApp.Contracts.csproj",
+        "projectName": "TelephoneDirectoryApp.Contracts",
+        "projectPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Contracts\\TelephoneDirectoryApp.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ntm14\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ntm14\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Entity\\TelephoneDirectoryApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Entity\\TelephoneDirectoryApp.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Entity\\TelephoneDirectoryApp.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Entity\\TelephoneDirectoryApp.Entity.csproj",
+        "projectName": "TelephoneDirectoryApp.Entity",
+        "projectPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Entity\\TelephoneDirectoryApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\ntm14\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ntm14\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

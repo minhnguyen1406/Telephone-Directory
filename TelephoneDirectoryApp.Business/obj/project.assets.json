@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TelephoneDirectoryApp.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "TelephoneDirectoryApp.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TelephoneDirectoryApp.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TelephoneDirectoryApp.Contracts.dll": {}
+        }
+      },
+      "TelephoneDirectoryApp.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TelephoneDirectoryApp.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TelephoneDirectoryApp.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TelephoneDirectoryApp.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../TelephoneDirectoryApp.Contracts/TelephoneDirectoryApp.Contracts.csproj",
+      "msbuildProject": "../TelephoneDirectoryApp.Contracts/TelephoneDirectoryApp.Contracts.csproj"
+    },
+    "TelephoneDirectoryApp.Entity/1.0.0": {
+      "type": "project",
+      "path": "../TelephoneDirectoryApp.Entity/TelephoneDirectoryApp.Entity.csproj",
+      "msbuildProject": "../TelephoneDirectoryApp.Entity/TelephoneDirectoryApp.Entity.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "TelephoneDirectoryApp.Contracts >= 1.0.0",
+      "TelephoneDirectoryApp.Entity >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ntm14\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Business\\TelephoneDirectoryApp.Business.csproj",
+      "projectName": "TelephoneDirectoryApp.Business",
+      "projectPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Business\\TelephoneDirectoryApp.Business.csproj",
+      "packagesPath": "C:\\Users\\ntm14\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Business\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ntm14\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Contracts\\TelephoneDirectoryApp.Contracts.csproj": {
+              "projectPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Contracts\\TelephoneDirectoryApp.Contracts.csproj"
+            },
+            "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Entity\\TelephoneDirectoryApp.Entity.csproj": {
+              "projectPath": "C:\\Users\\ntm14\\Documents\\GitHub\\Telephone-Directory\\TelephoneDirectoryApp.Entity\\TelephoneDirectoryApp.Entity.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

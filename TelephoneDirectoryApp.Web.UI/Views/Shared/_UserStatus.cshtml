@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <h1 class="display-3">Hello, there!</h1>
+    <p>You're using a telephone directory management application. You can <a asp-action="SignUp" asp-controller="Account">sign up</a> or <a asp-action="Login" asp-controller="Account">log in</a> to manage your contacts</p>
+}
+else
+{
+    <h1 class="display-3">Hi @User.Identity.Name</h1>
+    <p>Welcome back!</p>
+
+}

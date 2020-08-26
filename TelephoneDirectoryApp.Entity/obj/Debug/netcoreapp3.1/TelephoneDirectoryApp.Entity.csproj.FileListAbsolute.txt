@@ -1,0 +1,9 @@
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Entity\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.deps.json
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Entity\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Entity\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Entity\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.csprojAssemblyReference.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Entity\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.AssemblyInfoInputs.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Entity\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.AssemblyInfo.cs
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Entity\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Entity\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Entity\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.pdb

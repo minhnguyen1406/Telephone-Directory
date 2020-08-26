@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TelephoneDirectoryApp.Business/1.0.0": {
+        "dependencies": {
+          "TelephoneDirectoryApp.Contracts": "1.0.0",
+          "TelephoneDirectoryApp.Entity": "1.0.0"
+        },
+        "runtime": {
+          "TelephoneDirectoryApp.Business.dll": {}
+        }
+      },
+      "TelephoneDirectoryApp.Contracts/1.0.0": {
+        "dependencies": {
+          "TelephoneDirectoryApp.Entity": "1.0.0"
+        },
+        "runtime": {
+          "TelephoneDirectoryApp.Contracts.dll": {}
+        }
+      },
+      "TelephoneDirectoryApp.Entity/1.0.0": {
+        "runtime": {
+          "TelephoneDirectoryApp.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TelephoneDirectoryApp.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TelephoneDirectoryApp.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TelephoneDirectoryApp.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

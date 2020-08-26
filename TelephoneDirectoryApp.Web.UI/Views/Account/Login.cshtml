@@ -1,0 +1,28 @@
+﻿<div class="container-md">
+    <h2>Login</h2>
+    <form id="formLogin" asp-action="Login" asp-controller="Account" method="post">
+        <div class="form-group">
+            <label for="txtUsername">Username</label>
+            <input type="text" name="Username" id="txtUsername" class="form-control" placeholder="Username" />
+        </div>
+        <div class="form-group">
+            <label for="txtPassword">Password</label>
+            <input type="password" name="Password" id="txtPassword" class="form-control" placeholder="Password" />
+        </div>
+        @if (ViewData["UnAuthorizedMessage"] != null)
+        {
+            <div>
+                <h4 class="text-danger">@ViewData["UnAuthorizedMessage"]</h4>
+            </div>
+        }
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+
+    </form>
+    <div>
+        <a asp-action="SignUp" asp-controller="Account">Haven't signed up, click here to register</a>
+    </div>
+</div>
+

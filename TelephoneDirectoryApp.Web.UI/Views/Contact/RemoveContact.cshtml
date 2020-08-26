@@ -1,0 +1,12 @@
+﻿<div class="jumbotron">
+    <div class="container-md">
+        <h4 class="text-alert">@ViewData["RemoveWarning"]</h4>
+        <form id="formRemove" asp-action="RemoveContact" asp-controller="Contact" method="post">
+            <div class="form-group">
+                <a type="reset" class="btn btn-outline-primary" asp-action="AllContactsView" asp-controller="Contact">No</a>
+                &nbsp;&nbsp;
+                <button type="submit" class="btn btn-primary">Yes</button>
+            </div>
+        </form>
+    </div>
+</div>

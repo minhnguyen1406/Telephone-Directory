@@ -1,0 +1,164 @@
+﻿@model IEnumerable<TelephoneDirectoryApp.Entity.UserContact>
+
+<div class="container-md">
+    <h2>Your Contacts</h2>
+    <form id="formFilter" asp-action="AllContactsView" class="form-inline mt-2 mt-md-0" asp-controller="Contact" method="get">
+        <div class="form-row">
+            <div class="col-lg-3">
+                <select id="selectPageSize" class="form-control" name="PageSize" asp-items="@ViewData["ItemsPerPage"] as List<SelectListItem>" onchange="this.form.submit()"></select>
+            </div>
+        </div>
+        <br>
+        <div class="form-group">
+            <div class="col-lg-3">
+                <input id="txtSearchFirstName" name="FirstNameSearch" class="form-control mr-sm-2" type="text" placeholder="First Name" />
+            </div>
+            <div class="col-lg-3">
+                <input id="txtSearchLastName" name="LastNameSearch" class="form-control mr-sm-2" type="text" placeholder="Last Name" />
+            </div>
+            <div class="col-lg-3">
+                <input id="txtSearchPhone" name="PhoneSearch" class="form-control mr-sm-2" type="text" placeholder="Phone" />
+            </div>
+            <div class="col-lg-3">
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+            </div>
+        </div>
+    </form>
+    <br />
+    <table class="table table-hover table-striped text-center">
+        <thead class="thead-light">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Gender)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Phone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.City)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.State)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Zip)
+                </th>
+                <th>Edit Contact</th>
+                <th>Remove Contact</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gender)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Phone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.City)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.State)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Zip)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "EditContact", "Contact", new { id = item.Id }) 
+                    </td>
+                    <td>
+                        @Html.ActionLink("Remove", "RemoveContact", "Contact", new { id = item.Id })
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+        @if (!Model.Any())
+        {
+            <tfoot>
+                <tr>
+                    <td colspan="11" class="text-center">No Records found</td>
+                </tr>
+            </tfoot>
+        }
+
+    </table>
+    @{
+        int pageIndex = @ViewData["pageIndex"] != null ? Convert.ToInt32(@ViewData["pageIndex"]) : 0;
+        int prevIndex = pageIndex - 1;
+        int nextIndex = pageIndex + 1;
+        int firstIndex = 1;
+        int lastIndex = (int)Math.Ceiling((Convert.ToInt32(ViewData["totalItems"]) / (Convert.ToDouble(ViewData["pageSize"]))));
+        var prevDisabled = pageIndex > 1 ? "" : "disabled";
+        var nextDisabled = lastIndex > pageIndex ? "" : "disabled";
+        var firstDisabled = prevDisabled != "disabled" ? "" : "disabled";
+        var lastDisabled = nextDisabled != "disabled" ? "" : "disabled";
+    }
+    <div class="row">
+        <div class="col-12 text-sm-center">
+            <a asp-route-pageIndex="@firstIndex"
+               asp-route-PageSize="@ViewData["pageSize"]"
+               asp-action="AllContactsView"
+               asp-controller="Contact"
+               class="btn btn-secondary @firstDisabled">
+                First
+            </a> &nbsp;
+
+            <a asp-route-pageIndex="@prevIndex"
+               asp-route-PageSize="@ViewData["pageSize"]"
+               asp-action="AllContactsView"
+               asp-controller="Contact"
+               class="btn btn-secondary @prevDisabled">
+                Prev
+            </a> &nbsp;
+
+            <a asp-route-pageIndex="@nextIndex"
+               asp-route-PageSize="@ViewData["pageSize"]"
+               asp-action="AllContactsView"
+               asp-controller="Contact"
+               class="btn btn-secondary @nextDisabled">
+                Next
+            </a> &nbsp;
+
+            <a asp-route-pageIndex="@lastIndex"
+               asp-route-PageSize="@ViewData["pageSize"]"
+               asp-action="AllContactsView"
+               asp-controller="Contact"
+               class="btn btn-secondary @lastDisabled">
+                Last
+            </a> &nbsp;
+        </div>
+        <div class="col-12 text-sm-right">
+            <a asp-action="CreateContact" asp-controller="Contact" class="btn btn-primary"> Add New Contact </a>
+        </div>
+    </div>
+</div>

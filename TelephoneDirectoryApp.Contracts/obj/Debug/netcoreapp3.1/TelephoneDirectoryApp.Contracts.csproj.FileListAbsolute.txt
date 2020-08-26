@@ -1,0 +1,12 @@
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.deps.json
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.csprojAssemblyReference.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.AssemblyInfoInputs.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.AssemblyInfo.cs
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.csproj.CopyComplete
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.Contracts\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.pdb

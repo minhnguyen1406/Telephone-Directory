@@ -1,0 +1,25 @@
+﻿@model TelephoneDirectoryApp.Entity.UserProfile
+<div class="container-md">
+    <h2>@Model.Username's Profile</h2>
+    <div class="container">
+        <div class="row">
+            <label asp-for="Username" class="control-label"></label>
+            <label class="control-label">: @Model.Username</label>
+        </div>
+        <div class="row">
+            <label asp-for="FirstName" class="control-label"></label>
+            <label class="control-label">: @Model.FirstName</label>
+        </div>
+        <div class="row">
+            <label asp-for="LastName" class="control-label"></label>
+            <label class="control-label">: @Model.LastName</label>
+        </div>
+        <div class="row">
+            <label asp-for="Email" class="control-label"></label>
+            <label class="control-label">: @Model.Email</label>
+        </div>
+        <div class="row">
+            <a asp-action="Index" asp-controller="Home" class="btn btn-primary">Go Back</a>
+        </div>
+    </div>
+</div>

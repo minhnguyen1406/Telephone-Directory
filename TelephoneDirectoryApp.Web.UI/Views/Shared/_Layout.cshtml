@@ -1,0 +1,64 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Telephone Directory - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/styles/styles.css" />
+    <link rel="stylesheet" href="~/bootstrap/bootstrap.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" asp-action="Index" asp-controller="Home">Telephone Directory</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index" asp-controller="Home">Home</a>
+                    </li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-action="ProfileView" asp-controller="Account">My Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-action="AllProfilesView" asp-controller="Account">All Profiles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-action="AllContactsView" asp-controller="Contact">My Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-action="ResetPassword" asp-controller="Account">Reset Password</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-action="EditProfile" asp-controller="Account">Edit Profile</a>
+                        </li>
+                    }
+                </ul>
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <a class="btn btn-outline-primary my-2 my-sm-0" style="margin-right:5px" asp-action="LogIn" asp-controller="Account">Log In</a>
+                    <a class="btn btn-primary my-2 my-sm-0" asp-action="SignUp" asp-controller="Account">Sign Up</a>
+                }
+                else
+                {
+                    <a class="btn btn-outline-danger my-2 my-sm-0" asp-action="LogOut" asp-controller="Account">Log Out</a>
+                }
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="container text-center">
+        <p>&copy; Telephone Directory - 2020</p>
+    </footer>
+</body>
+</html>

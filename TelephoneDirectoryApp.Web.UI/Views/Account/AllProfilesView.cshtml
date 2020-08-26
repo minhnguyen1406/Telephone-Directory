@@ -1,0 +1,149 @@
+﻿@model IEnumerable<TelephoneDirectoryApp.Entity.UserProfile>
+
+<div class="container-md">
+    <h2>All User Profiles</h2>
+    <form id="formFilter" asp-action="AllProfilesView" class="form-inline mt-2 mt-md-0" asp-controller="Account" method="get">
+        <div class="form-group my-2 my-sm-0">
+            <div class="col-lg-3">
+                <select id="selectPageSize" class="form-control" name="PageSize" asp-items="@ViewData["ItemsPerPage"] as List<SelectListItem>" onchange="this.form.submit()"></select>
+            </div>
+        </div>
+        <br>
+        <div class="form-group" style="margin-top: 20px">
+            <div class="col-lg-3">
+                <input id="txtSearchUserName" name="UsernameSearch" class="form-control mr-sm-2" type="text" placeholder="Username" />
+            </div>
+            <div class="col-lg-3">
+                <input id="txtSearchFirstName" name="FirstNameSearch" class="form-control mr-sm-2" type="text" placeholder="First Name" />
+            </div>
+            <div class="col-lg-3">
+                <input id="txtSearchLastName" name="LastNameSearch" class="form-control mr-sm-2" type="text" placeholder="Last Name" />
+            </div>
+            <div class="col-lg-3">
+                <input id="txtSearchEmail" name="EmailSearch" class="form-control mr-sm-2" type="text" placeholder="Email" />
+            </div>
+        </div>
+        <div class="form-row" style="margin-top: 20px">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+        </div>
+
+    </form>
+    <br />
+    <table class="table table-hover table-striped text-center">
+        <thead class="thead-light">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Username)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>View Profile</th>
+                <th>Remove Profile</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Username)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "ProfileView", "Account", new { id = item.Id })
+                    </td>
+                    <td>
+                        @if(item.Username != User.Identity.Name) 
+                        { 
+
+                            @Html.ActionLink("Remove", "RemoveProfile", "Account", new { id = item.Id })
+                        }
+                        else
+                        {
+                            <text></text>
+                        }
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+
+        @if (!Model.Any())
+        {
+            <tfoot>
+                <tr>
+                    <td colspan="6" class="text-center">No Records found</td>
+                </tr>
+            </tfoot>
+        }
+
+    </table>
+    @{
+        int pageIndex = @ViewData["pageIndex"] != null ? Convert.ToInt32(@ViewData["pageIndex"]) : 0;
+        int prevIndex = pageIndex - 1;
+        int nextIndex = pageIndex + 1;
+        int firstIndex = 1;
+        int lastIndex = (int)Math.Ceiling((Convert.ToInt32(ViewData["totalItems"]) / (Convert.ToDouble(ViewData["pageSize"]))));
+        var prevDisabled = pageIndex > 1 ? "" : "disabled";
+        var nextDisabled = lastIndex > pageIndex ? "" : "disabled";
+        var firstDisabled = prevDisabled != "disabled" ? "" : "disabled";
+        var lastDisabled = nextDisabled != "disabled" ? "" : "disabled";
+    }
+    <div class="row">
+        <div class="col-12 text-sm-center">
+            <a asp-route-pageIndex="@firstIndex"
+               asp-route-PageSize="@ViewData["pageSize"]"
+               asp-action="AllProfilesView"
+               asp-controller="Account"
+               class="btn btn-secondary @firstDisabled">
+                First
+            </a> &nbsp;
+
+            <a asp-route-pageIndex="@prevIndex"
+               asp-route-PageSize="@ViewData["pageSize"]"
+               asp-action="AllProfilesView"
+               asp-controller="Account"
+               class="btn btn-secondary @prevDisabled">
+                Prev
+            </a> &nbsp;
+
+            <a asp-route-pageIndex="@nextIndex"
+               asp-route-PageSize="@ViewData["pageSize"]"
+               asp-action="AllProfilesView"
+               asp-controller="Account"
+               class="btn btn-secondary @nextDisabled">
+                Next
+            </a> &nbsp;
+
+            <a asp-route-pageIndex="@lastIndex"
+               asp-route-PageSize="@ViewData["pageSize"]"
+               asp-action="AllProfilesView"
+               asp-controller="Account"
+               class="btn btn-secondary @lastDisabled">
+                Last
+            </a> &nbsp;
+        </div>
+    </div>
+</div>

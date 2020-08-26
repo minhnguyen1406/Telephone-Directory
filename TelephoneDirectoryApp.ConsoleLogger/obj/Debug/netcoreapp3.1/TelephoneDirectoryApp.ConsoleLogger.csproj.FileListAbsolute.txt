@@ -1,0 +1,14 @@
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.ConsoleLogger.deps.json
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.ConsoleLogger.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.ConsoleLogger.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.ConsoleLogger.csprojAssemblyReference.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.ConsoleLogger.AssemblyInfoInputs.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.ConsoleLogger.AssemblyInfo.cs
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.ConsoleLogger.csproj.CoreCompileInputs.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.ConsoleLogger.csproj.CopyComplete
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.ConsoleLogger.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.ConsoleLogger\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.ConsoleLogger.pdb

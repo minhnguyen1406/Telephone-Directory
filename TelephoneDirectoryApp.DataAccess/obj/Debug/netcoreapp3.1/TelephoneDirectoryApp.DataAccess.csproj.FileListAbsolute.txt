@@ -1,0 +1,14 @@
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.DataAccess.AssemblyInfo.cs
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.DataAccess.deps.json
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.DataAccess.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.DataAccess.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Contracts.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\bin\Debug\netcoreapp3.1\TelephoneDirectoryApp.Entity.pdb
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.DataAccess.csproj.CopyComplete
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.DataAccess.dll
+C:\Users\ntm14\Documents\GitHub\Team-A\Minh's workspace\TelephoneDirectoryApp\TelephoneDirectoryApp.DataAccess\obj\Debug\netcoreapp3.1\TelephoneDirectoryApp.DataAccess.pdb
